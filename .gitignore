@@ -1,0 +1,55 @@
+# ==========================================
+# C 语言项目 .gitignore（Windows / Visual Studio / VS Code）
+# 作用：下面列出的文件不会被 git 跟踪，也不会上传
+# ==========================================
+
+# ----- 编译生成的文件（无需上传）-----
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.gch
+*.pch
+
+# ----- 编译输出目录 -----
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# ----- Visual Studio / CLion 等编辑器文件 -----
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.vc.db
+*.vcxproj.user
+.idea/
+
+# ----- 系统与临时文件 -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*~
+*.swp
+
+# ----- 说明 -----
+# .vscode/ 一般保留（里面是编辑器配置，方便换机后保持一致）
+# 若不想上传，取消下面一行的注释即可
+# .vscode/
